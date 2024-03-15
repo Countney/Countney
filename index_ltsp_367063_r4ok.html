@@ -1,0 +1,20 @@
+const greet = name => `Hello, ${name}!`;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const removeDuplicates = array => Array.from(new Set(array));
+const formatDate = date => new Date(date).toLocaleDateString();
+const greet = name => `Hello, ${name}!`;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false + 67
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange - false
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+40,25,37,51,65,22,9,46,14,29,29,91,84,1,44,42,8,80,2,78,88,48,20,82,91,43,45,66,52,62,55,70,34,22,52,54,16,58,1,21,62,79,21,23,57,73,30,16,51,96,19,17,6,53,76,79,59,67,38,37,98,70,71,69,97,77,81,43,18,4,67,18,13,96,70,84,91,87,69,62,41,64,9 - true
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const squareRoot = num => Math.sqrt(num);
