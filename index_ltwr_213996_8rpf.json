@@ -1,0 +1,12 @@
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+86 - 68
+const findSmallestNumber = numbers => Math.min(...numbers);
+function addNumbers(a, b) { return a + b; }
+0 - true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+22 / 76,20,31,92,91,73,72,18,4,2,10,67,93,38,99,83,4,16,96,77,32,62,22,69,96,54,70,90,52,55,24,10,29,22,80,90,32,90,74,85,43,82,10,26,36,37
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
