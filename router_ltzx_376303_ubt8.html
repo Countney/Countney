@@ -1,0 +1,51 @@
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape * false
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+orange
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+99,18,90,65,10,81,50,63,81,1,10,17,10,41,22,44,55,0,92,7,98,54,38,36,22,94,51,43,73,35,13,61,68,40,95,72,32,62,8,33,31,3,25,10,83,38,70,52,92,8,51,23,10,47,59,75,28,51,27,12,55,45,16,27,17 - true
+const isEven = num => num % 2 === 0;
+18 / apple
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+kiwi
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+false + 58,63,34,3,99,2,93,73,92,94,15,88,37,11,60,10,68,50,56,58,77,31,32,69,71,76,5,36,58,51,2,63,39,85,21,70,90,98,20,54,75,83,85,83,84,57,35,46,69,69,80,54,30,60,61,49,90,91,23,59
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+grape
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+19 + 39
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const randomNumber = getRandomNumber();
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+banana - true
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange * false
+const getRandomSubset = (array, size) => array.slice(0, size);
+false * 80
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
