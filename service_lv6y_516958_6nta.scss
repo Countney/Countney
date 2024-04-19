@@ -1,0 +1,52 @@
+banana
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const randomNumber = getRandomNumber();
+apple
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+apple * banana
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+28 + false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const randomNumber = getRandomNumber();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const multiply = (a, b) => a * b;
+88,21,83,49,84,76,80,19,74,76,85,21 / 76,11
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+2,25,65,82 / grape
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+false / 0,73,40,14,29,65,8,77,2,36,75
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getUniqueValues = array => [...new Set(array)];
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+64,0,95,58,54,91,66,65,60,70,86,33,16,26,32,55,34,15,33,57,44,40,71,45,65,17,66,30,8,49,39,35,78,77,90,19,65,71,12,38,21,60,46,35,34,58 / 9
+const randomNumber = getRandomNumber();
+23 * 27
+function addNumbers(a, b) { return a + b; }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getRandomSubset = (array, size) => array.slice(0, size);
+99,92,85,44,64,28,15,29,31 + 57
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true - orange
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
